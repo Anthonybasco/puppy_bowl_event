@@ -17,7 +17,7 @@ import "./App.scss";
  */
 export default function App() {
   const [selectedPuppyId, setSelectedPuppyId] = useState();
-
+console.log('hello')
   return (
     <Provider store={store}>
       <h1>Puppy Bowl</h1>
